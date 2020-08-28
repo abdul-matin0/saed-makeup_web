@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- side bar-->
+    <div class="side-nav">
+        
+        <img src="images/vector.png" alt="Vector Image" class="vector-img">
+        <img src="images/person.png" alt="Person Image" class="person-img">
+        <br>
+        <p class="person-name">Thomas Ajegunle</p><br>
+        <small class="admin-pos">Super Admin</small>
+        <!-- navigation items -->
+        <div class="nav-items">
+            <button class="sidebar-active"><img src="images/mdi-bank.png" alt="" class="sidebar-img">Dashboard</button>
+            <a href="employees.html"><button class="sidebar-btn"><img src="images/mdi-people.png" alt="" class="sidebar-img">Employees</button></a>
+            <button class="sidebar-btn"><img src="images/mdi-bank.png" alt="" class="sidebar-img">Salary Breakdown</button>
+            <button class="sidebar-btn"><img src="images/mdi-message.png" alt="" class="sidebar-img"> Messaging</button>
+        </div>
+    </div>
+    <!-- main section -->
+    <div class="main-section">
+        <!-- top navigation -->
+        <nav class="top-nav">
+            <img src="images/mdi-menu.png" alt="Menu" class="menu">
+            <div class="top-nav-content">
+                <a href="" class="blue">Edit Profile</a>
+                <a href="index.html"><button class="cancel-btn">Sign Out</button></a>
+            </div>
+            
+        </nav>
+        <!-- main body -->
+        <div class="main-body">
+            <div class="current"><span >Dashboard</span></div>
+            <!-- first column -->
+            <div class="first-col">
+                <span style="margin-left: 5px;">Sales</span>
+                <select>
+                    <option value="January">January</option>
+                    <option value="Months">Months</option>
+                </select><br>
+                <img src="images/chart.png" alt="" class="center"><br>
+                <span class="price">N500,000</span>
+            </div>
+            <!-- second column -->
+            <div class="second-col" style="background: url('images/bar-chart.png'); background-size: contain; background-repeat: no-repeat;">
+            </div>
+        </div>
+        <!-- table -->
+        <h3>Job Completion Blog</h3><br>
+
+        <table class="position">
+            <tr>
+              <th>Rating</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Jobs Completed</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Sam</td>
+                <td>Noir</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Adams</td>
+                <td>Jackson</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Emmanuel</td>
+                <td>Smith</td>
+                <td>10</td>
+            </tr>
+          </table>
+          <!-- end of table -->
+    </div>
+    
+</body>
+</html>
